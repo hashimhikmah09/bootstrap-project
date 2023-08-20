@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    background-color: grey;
+}
+.bootstrap{
+    display: flex;
+    position: fixed;
+    width:350px;
+    height: 100%;
+    padding:100px;
+    background-image: url(dot.png);
+    background-color: whitesmoke;
+    border: 1px solid wheat;
+}
+.bootstrap.img{
+    padding: 70px;
+}
+
+a{
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color:red;
+}
+.main-content{
+    width: 80%;
+    margin-left: 350px;
+    background-color: grey;
+    height: 100%;
+    padding: 50px;
+}
+.home{
+    width: 80%;
+    margin-left: 40px;
+    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    padding: 40px;
+}
+.border{
+    color: black;
+}
+.profile{
+    display: block;
+    width: 90%;
+    height: auto;
+    background-color: white;
+    margin-left: 40px;
+}
+form{
+    margin:20px;
+    padding:20px;
+}
+.btn{
+    margin: 10px;
+    border-radius: 0%;
+    padding: 15px;
+}
+.file{
+    margin: 20px;
+    padding: 20px;
+}
+.radio-block label{
+    display:inline-block;
+    text-align:center;
+    margin:0 4em;
+}
+.radio-block label input[type="radio"] {
+    display:block;
+    margin:0.5em auto;
+}
+.comment label{
+    display:inline-block;
+    text-align:center;
+    margin:0 4em;
+}
+.comment label input[type="radio"] {
+    display:block;
+    margin:0.5em auto;
+}
+.text{
+    display: block;
+}
+
+    
+    
