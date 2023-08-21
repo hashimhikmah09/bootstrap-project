@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing:border-box ;
 }
 body{
     background-color: grey;
@@ -28,6 +27,7 @@ a{
 }
 .main-content{
     width: 80%;
+    height: 100%;
     margin-left: 350px;
     background-color: grey;
     height: 100%;
@@ -46,11 +46,11 @@ a{
 .profile{
     display: block;
     width: 90%;
-    height: auto;
+    height: 100%;
     background-color: white;
     margin-left: 40px;
 }
-form{
+.boot{
     margin:20px;
     padding:20px;
 }
@@ -84,6 +84,26 @@ form{
 .text{
     display: block;
 }
+.input-group input[type="submit"] {
+    padding: 20px;
+    margin: 5rem;
+    
 
+}
+.upload{
+    width: 100%;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .bootstrap{
+padding: 20px;
+display: flex;
+width: 25%;
+
+    }
+    .main-content{
+        margin-left: auto;
+    }
     
-    
+}
