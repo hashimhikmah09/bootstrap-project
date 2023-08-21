@@ -120,6 +120,7 @@ position: fixed;
     .upload{
         width: 100%;
         padding: 5px;
+        margin: auto;
     }
 
 
