@@ -131,10 +131,10 @@ position: fixed;
 .comment label{
     display:block;
     text-align:center;
-    margin:0 2em;
+    margin:5px;
 }
 .comment label input[type="radio"] {
     display:block;
-    margin:0.2em auto;
+    margin:auto;
 }
 }
