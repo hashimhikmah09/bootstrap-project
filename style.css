@@ -125,6 +125,8 @@ position: fixed;
     .upload input[type="submit"]{
         display:block;
         margin-left: 10px;
+        align-items: center;
+        justify-content: center;
     }
 
 
