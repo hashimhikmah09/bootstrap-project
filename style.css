@@ -123,7 +123,8 @@ position: fixed;
 
     }
     .upload input[type="submit"]{
-        display: inline;
+        display:block;
+        margin-left: 10px;
     }
 
 
